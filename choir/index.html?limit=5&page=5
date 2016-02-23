@@ -1,0 +1,288 @@
+<!DOCTYPE HTML>
+<!--
+	JKUAT Catholic Community Website
+	Created by Wamalwa Wanyama, Dec, 2015 - Feb, 2016.
+-->
+<html>
+<head>
+	<meta name="description" content="St. Augustine University Chaplaincy JKUAT Catholic Community and Parish. Student Choir Lyrics Database" />
+	<title>St. Augustine Chaplaincy, Juja|JKUAT Catholic Community, CATCOM.</title>
+	<meta name="robots" content="all" />
+	<meta name="googlebot" content="all" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" href="../assets/css/menu.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="../assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="../assets/css/ie8.css" /><![endif]-->
+	<link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez' type='text/css' media='all' />
+	<link rel='stylesheet' id='shortcode-css'  href='css/shortcodes.css' type='text/css' media='all' />
+    <!-- [favicon] begin -->
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<script type='text/javascript' src='js/jquery/jquery.js'></script>
+	<script type='text/javascript' src='js/mainjs.js'></script>
+	<style>
+			#songContent {
+				background: url(images/bg/wrapper.png) 5px;
+				background-width:100%;
+				/*width: 90%;*/
+				min-height: 50px;
+				overflow: hidden;
+				padding-top: 8px;
+			}
+		</style>
+</head>
+<body onload="loadControls();loadControls1();loadControls2();checkSession()" onunload="clearsessions()">
+<!-- Wrapper -->
+	<div id="wrapper">
+	<!-- Header -->
+		<header id="header">
+			<h1><a href="#">CATCOM</a></h1>
+			
+			<nav class="main">
+				<ul>
+					<li class="search">
+						<a class="fa-search" href="#search">Search</a>
+						<form id="search" method="get" action="#">
+							<input type="text" name="query" placeholder="Search" />
+						</form>
+					</li>
+					<li class="menu">
+						<a class="fa-bars" href="#menu">Menu</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	<!-- End of header -->
+	<!-- Menu -->
+		<section id="menu">
+			<!-- Search -->
+			<section>
+				<form class="search" method="get" action="#">
+					<input type="text" name="query" placeholder="Search" />
+				</form>
+			</section>
+			<!-- Links -->
+			<section>
+				<ul class="links">
+					<li>
+						<a href="#">
+							<h3>Lorem ipsum</h3>
+							<p>Feugiat tempus veroeros dolor</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h3>Dolor sit amet</h3>
+							<p>Sed vitae justo condimentum</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h3>Feugiat veroeros</h3>
+							<p>Phasellus sed ultricies mi congue</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h3>Etiam sed consequat</h3>
+							<p>Porta lectus amet ultricies</p>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+		<!-- Actions -->
+			<section>
+				<ul class="actions vertical">
+					<li><a href="#" class="button big fit">Log In</a></li>
+				</ul>
+			</section>
+		</section>
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Post -->
+				<div class="row uniform" id="linnn"><div class="6u 12u$(xsmall)"><h2>JKUAT CATCOM Choir Lyrics</h2>
+					<div class="row uniform">
+					
+					
+					<nav id="cssmenu" class="12u 12u$(xsmall)" style="z-index:10000;">
+						<ul>
+							<li class="active"><a href="#">Home</a>
+							</li>
+							<li class="has-sub"><a href="#">Student Life</a>
+								<ul>
+									<li><a href="#">Movements</a></li>
+									<li><a href="#">SCCs</a></li>
+								</ul>
+							</li>
+							<li><a href="lyrics">Choir</a></li>
+							<li><a href="#">Registration</a></li>
+							<li><a href="#">Contacts</a></li>
+						</ul>
+					</nav>
+					
+					</div>
+				</div>
+				<div id="sess" class="6u$ 12u$(xsmall)" style="border-radius: 100px 0 0 0; background-color: #abcdef;"></div><br /></div>
+				<article class="post" style="background-color: #cceeff;border-color:#abcdef;">
+					
+					<div class="container group">
+						<div class="tabs-container">
+							<ul class="tabs">
+								<li><h4><a href="#tab1" title="List">Song List</a></h4></li>
+								<li><h4><a href="#tab2" title="Entry" >Song Entry</a></h4></li>
+								<li><h4><a href="#tab3" title="Profile">Profile</a></h4></li>
+								
+							</ul>
+							<div class="border-box group">
+								<div id="tab1" class="panel group">
+									
+									<div class="row uniform">
+										<div class="6u 12u$(xsmall)" id="songContent" style="padding: 10px; border-style: solid; border width: 1px; border-color: #00eeff; box-shadow: 2px 2px 2px #abcdef;">
+										</div>
+										<div class="6u$ 12u$(xsmall)">
+											<div id="songSearch" class="row uniform">
+												<div class="6u 12u$(xsmall)">
+													<input type="text" placeholder="Search here" name="searchTerm" id="searchTerm" onkeydown = "if (event.keyCode == 13)document.getElementById('btnSearchs').click()" />
+												</div>
+												<div class="6u$ 12u$(xsmall)">
+													<input type="button" value="Search" id="btnSearchs" name="Search" class="btn" onclick="searchSong()" />
+												</div>
+											</div>
+											<div class="row uniform" id="songList">
+											<table class="alt">
+												<thead>
+														<tr>
+														<th width="5%"></th>
+														<th width="95%">TITLE/OTHER DETAIL</th>
+												</tr>
+												</thead>
+												<tbody>
+																
+												</tbody>
+											</table>
+											</div>
+											<ul class="pagination pagination-sm"><li class=""><a href="?limit=5&page=4">&laquo;</a></li><li><a href="?limit=5&page=1">1</a></li><li class="disabled"><span>...</span></li><li class=""><a href="?limit=5&page=4">4</a></li><li class=""><a href="?limit=5&page=6">&raquo;</a></li></ul> 
+										</div>
+									</div>
+								</div>
+								<div id="tab2" class="panel group">
+<form name="songEntry" class="contact-form">
+<div class="row uniform">
+ <div class="3u 12u$(xsmall)" id="categorySelect">
+<div id="catAddP"></div>
+ </div>
+ <div class="3u 12u$(xsmall)" id="choirSelect">
+<div id="choirAddP"></div>
+ </div>
+ <div class="3u 12u$(xsmall)" id="albumSelect">
+  <label>
+  Album<div class='row uniform'><div class='9u 12u$(xsmall)'>
+   <select tabindex="3" name="album" id="album" class="my-drop">
+    <option value="1">Unknown</option>
+   </select>
+</div><div class='2u$ 12u$(xsmall)'><input type='button' value='+' onclick='createAlb()' /></div></div>
+  </label>
+<div id="albAddP"></div>
+ </div>
+ <div class="3u$ 12u$(xsmall)" id="composerSelect">
+<div id="compAddP"></div>
+ </div>
+</div>
+<div class="row uniform">
+ <div class="8u 12u$(xsmall)">
+   <input type="text" placeholder="Song Title" name="songTitle" id="songTitle" />
+ </div>
+ <div class="4u$ 12u$(xsmall)">
+  <input type="button" value="Submit Song" name="submitSong" onclick="writesong()" />
+ </div>
+</div>
+<div class="row uniform">
+ <div id="success" class="12u$">
+ </div>
+</div>
+<div class="row uniform">
+ <label>Song Parts</label>
+ <div class="3u 12u$(xsmall)"><ul class="actions">
+  <li><input type="button" value="Intro" name="intro" onclick="writesection('intro')" /></li>
+  <li><input type="button" value="Chorus" name="chorus" id="chorus" onclick="rs1()" /></li><br/><hr/>
+  <li><input type="button" value="Stanza 1" name="Stanza 1" id="stanza" onclick="rs()" /></li>
+  <li><input type="button" value="Ending" name="ending" onclick="writesection('ending')" /></li></ul>
+ </div>
+ <div class="8u$ 12u$(xsmall)">
+  <textarea placeholder="Your song here ..." name="songText" id="songText" onfocus="hideDiv()" style="min-height:500px;"></textarea>
+ </div>
+</div>
+
+
+								</form>
+								</div>
+								<div id="tab3" class="panel group"">
+<form>
+<div class="row uniform">
+ <div class="12u$">
+  <input type="text" name="memberName" id="memberName" placeholder="Full Name *">
+ </div>
+ <div class="12u$">
+  <div class="select-wrapper">
+   <select name="gender" id="gender">
+    <option value="">- Gender * -</option>
+    <option value="none">None</option>
+    <option value="female">Feminine</option>
+    <option value="male">Masculine</option>
+   </select>
+  </div>
+ </div>
+ <div class="6u 12u$(xsmall)">
+  <input type="email" name="memberEmail" id="memberEmail" placeholder="Email Address *">
+ </div>
+ <div class="6u$ 12u$(xsmall)">
+  <input type="text" name="memberUserName" id="memberUserName" placeholder="Username *">
+ </div>
+ <div class="6u 12u$(xsmall)">
+  <input type="password" name="memberPwd" id="memberPwd" placeholder="Password *">
+ </div>
+ <div class="6u$ 12u$(xsmall)">
+  <input type="password" name="memberCPwd" id="memberCPwd" placeholder="Confirm Password *">
+ </div>
+ <div class="12u$">
+  <ul class="actions">
+   <li><input type="button" name="registrarSubmit" value="Register" id="registrarSubmit" onclick="registrarAct()" style="background-color:#ddeeff;" /></li>
+   <li><input type="reset" value="Reset" style="background-color:#ddeeff;"></li>
+  </ul>
+ </div>
+</div>
+<div id="registrarSuccess" class="row">
+</div>
+</form>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+
+		</div>
+		<!-- Sidebar -->
+		
+	</div>
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/skel.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="../assets/js/main.js"></script>
+	
+	<script type='text/javascript' src='js/jquery.colorbox-min.js'></script>
+	<script type='text/javascript' src='js/jquery.flexslider-min.js'></script>
+	<script type='text/javascript' src='js/jquery.tweetable.js'></script>
+	<script type='text/javascript' src='js/jquery.tipsy.js'></script>
+	<script type='text/javascript' src='js/responsive.js'></script>
+	<script type='text/javascript' src='js/jquery.mobilemenu.js'></script>
+	<script type='text/javascript' src='js/shortcodes.js'></script>
+<!-- End of wrapper -->
+</body>
+</html>
